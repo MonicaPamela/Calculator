@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Mortage Calculator</title>
+    <script src="./scripts/payment.js"></script>
+    <script src="./scripts/index.js" aria-hidden="true"></i>.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body class="content">
+    <h1>Financial Mortage Calculator</h1>
+    <br>
+    <div class="example">
+        
+        Example: A $65,000 loan at 8.725% interest for 20 years would have a $573.38/mo
+    </div>
+    <br>
+    <label>
+        <div class="input-label"> Loan Amount: </div><input id="amount" type="number" value="65000">
+    </label>
+    
+    
+    <label>
+        <div class="input-label"> Interest Rate: </div><input id="rate" type="number" value="8.725">
+    </label>
+    
+    
+    <label>
+        <div class="input-label"> Duration: </div><input id="years" type="number" value="20">
+    </label>
+    <br>
+    <br>
+
+    <button id="calculateButton"> Calculate </button>
+    <br>
+    <br>
+    <h1> Monthly Payments:</h1>
+    
+    <input readonly id="output" class="output">
+    <!-- <div id="output"> $0,000.00 </div>
+     -->
+     </div>
+</body>

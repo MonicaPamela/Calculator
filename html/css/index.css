@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 53, 139);
+    background-color: rgb(2, 180, 225);
+    font-size: 2rem;
+}
+.example{
+   font-size: 20px
+}
+
+
+button, input{
+    font-size: 2rem;
+    color: rgb(12, 0, 139);
+    background-color: rgb(183, 220, 247);
+    border-radius: 1rem;
+    padding-inline-start: .5rem;
+}
+
+button{
+    border: 2 px solid white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.75rem;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.output{
+   background-color: #f3f2f7;
+}
+
+
+
